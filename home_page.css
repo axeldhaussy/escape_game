@@ -1,5 +1,6 @@
 body {
 	background-image:url(images/fond.jpg);
+	background-color: black;
 	background-repeat: no-repeat;
 	background-position: 60% 0%;
 }
@@ -7,24 +8,38 @@ h1 {
 	color: orange;
 	text-align: center;
 }
-button {
+.buttonPlay {
 	background-color: orange;
+	float: left;
+	text-decoration: none;
+	margin-left: 450px;
 	border: none;
 	border-radius: 10px;
 	color: black;
 	padding: 15px 12px;
 	text-align: center;
-	font-size: 16px;
+	font-size: 20px;
 	cursor: pointer;
 }
-button:hover {
+.buttonPlay:hover, .buttonLoad:hover {
     background-color: rgba(255, 0, 0, 1);
-    height: 10%;
-    width: 10%;
-    
 }
 
-button:active {
+.buttonPlay:active, .buttonLoad:active {
     box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
                 inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+.buttonLoad {
+	background-color: orange;
+	text-decoration: none;
+	float: right;
+	margin-right: 450px;
+	border: none;
+	border-radius: 10px;
+	color: black;
+	padding: 15px 12px;
+	text-align: center;
+	font-size: 20px;
+	cursor: pointer;
 }
