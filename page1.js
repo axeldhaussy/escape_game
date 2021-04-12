@@ -11,4 +11,5 @@ function pictureChange(){
 }
 function pictureChange2(){
 	document.body.style.backgroundImage = "url('images/pyramid_close2.jpg')";
+	document.getElementById("myDiv1").style.display = "block";
 }
