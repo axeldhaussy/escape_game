@@ -5,7 +5,6 @@ function confirmer(){
     else
     	return false;
 }
-
 function pictureChange(){
 	document.body.style.backgroundImage = "url('images/pyramid_close.jpg')";
 }

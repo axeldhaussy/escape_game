@@ -3,5 +3,41 @@ body {
 	background-image:url(images/fond_game.jpg);
 	background-repeat: no-repeat;
     background-size: 151vh;
-    background-position: 100% 13%;
+    background-position: 100% 40%;
+}
+
+.buttonExit {
+	background-color: black;
+	float: left;
+	text-decoration: none;
+	margin-top: 75vh;
+	margin-left: 15vh;
+	border: none;
+	border-radius: 10px;
+	color: white;
+	padding: 15px 12px;
+	text-align: center;
+	font-size: 20px;
+	cursor: pointer;
+}
+.buttonExit:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+.buttonExit:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+.answer, .checkButton {
+	position: relative;
+	top: 580px; left: 770px;	
+	border-radius: 10px;
+	background-color: black;
+	color: white;
+}
+.checkButton:hover {
+	cursor: pointer;
+}
+.checkButton:hover {
+	background-color: rgba(100, 100, 100, 1);
 }
