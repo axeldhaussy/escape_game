@@ -6,12 +6,15 @@
 		<title align= >Game</title>
 	</head>
 	<body>
+		<p id="bip1"> Time remaining:</p>
+		<br>
+		<p id="bip"></p>
 		<br><br><br>
-		<input type="text" class="answer" required minlength="1" maxlength="8" placeholder=" Answer">
-		<button class="checkButton" onclick="check()">Check</button>
+		<input type="text" class="answer" id="answer" required minlength="1" maxlength="8" placeholder=" Answer">
+		<button id="checkbutton" class="checkButton" onclick="check()">Check</button>
 
 		<div>
-			<a class="buttonExit" href="file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/home_page.html" onClick="return confirmer()"> Exit</a>
+			<a id="exit" class="buttonExit" href="file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/home_page.html" onClick= "return confirmer()"> Exit</a>
 		</div>
 
 	</body>

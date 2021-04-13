@@ -5,6 +5,14 @@ body {
     background-size: 151vh;
     background-position: 100% 40%;
 }
+p {
+	position: relative;
+	top: 8vh; left: 7vh;	
+	color: darkred;
+	display: none;
+	font-size: 25px;
+	font-family: bold;
+}
 
 .buttonExit {
 	background-color: black;
