@@ -15,6 +15,7 @@ function check(){
     if(nb == 3){
     	alert("Sorry it was your last chance... The pyramid got you. You will now go to jail for 15 seconds before trying again");
     	document.body.style.backgroundImage = "url('images/jail.png')";
+    	document.body.style.backgroundPosition = "300px -150px";
     	document.body.style.backgroundColor = "grey";
      	document.getElementById("exit").style.display = "none";
     	document.getElementById("checkbutton").style.display = "none";
@@ -40,6 +41,7 @@ function bip() {
     	finish();
     	document.body.style.backgroundImage = "url('images/fond_game.jpg')";
     	document.body.style.backgroundColor = "orange";
+    	document.body.style.backgroundPosition = "330px -70px";
     	document.getElementById("exit").style.display = "block";
     	document.getElementById("checkbutton").style.display = "block";
 		document.getElementById("answer").style.display = "block";
