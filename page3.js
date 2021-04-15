@@ -6,6 +6,7 @@ function check(){
 	var str = document.getElementById("answer").value;
 	if((str.includes("1000001")) && (nb < max)){
         alert("CORRECT!");
+        window.location.href="file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/home_page.html";
         document.getElementById("checkbutton").style.display = "none";
         document.getElementById("answer").style.display = "none";
         document.getElementById("help").style.display = "none";
