@@ -4,7 +4,7 @@ var max = 3;
 
 function check(){
 	var str = document.getElementById("answer").value;
-	if((str.includes("ipsum")) && (nb < max)){
+	if((str.includes("1000001")) && (nb < max)){
         alert("CORRECT!");
         document.body.style.backgroundImage = "url('images/pyramid_close2.jpg')";
     } else{
@@ -22,6 +22,9 @@ function check(){
 		document.getElementById("answer").style.display = "none";
 		document.getElementById("bip").style.display = "block";
 		document.getElementById("bip1").style.display = "block";
+		document.getElementById("help").style.display = "none";
+     	document.getElementById("idea").style.display = "none";
+
 		start();
     }
 }
@@ -55,6 +58,12 @@ function bip() {
 function start(){
   intervalId = setInterval(bip, 1000);
 }
+
+//help button
+function help(){
+	document.getElementById("idea").style.display = "block";
+}
+
 
 //exit button
 function confirmer(){
