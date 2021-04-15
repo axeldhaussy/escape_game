@@ -6,6 +6,10 @@ function check(){
 	var str = document.getElementById("answer").value;
 	if((str.includes("1000001")) && (nb < max)){
         alert("CORRECT!");
+        document.getElementById("checkbutton").style.display = "none";
+        document.getElementById("answer").style.display = "none";
+        document.getElementById("help").style.display = "none";
+     	document.getElementById("idea").style.display = "none";
         document.body.style.backgroundImage = "url('images/pyramid_close2.jpg')";
     } else{
     	var result = max - nb - 1;
