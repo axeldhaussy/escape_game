@@ -12,3 +12,14 @@ function pictureChange2(){
 	document.body.style.backgroundImage = "url('images/pyramid_close2.jpg')";
 	document.getElementById("myDiv1").style.display = "block";
 }
+//music
+function stopMusic(){
+	var sound = document.getElementById("music");
+	if (sound.paused){
+		sound.play();
+		document.getElementById("musicButton").src = "images/music.png";
+	} else {
+		sound.pause();
+		document.getElementById("musicButton").src = "images/noMusic.png";
+	}
+}

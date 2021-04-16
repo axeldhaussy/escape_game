@@ -47,6 +47,16 @@ body {
 	font-size: 20px;
 	cursor: pointer;
 }
+.musicButton {
+	size: 10px 10px;
+	background-color: black;
+	float: left;
+	margin-left: -400px;
+	margin-top: 400px;
+	border-radius: 25px;
+	padding: 8px 11px;
+	cursor: pointer;
+}
 .buttonEnter:hover {
     background-color: rgba(0, 200, 0, 1);
 
