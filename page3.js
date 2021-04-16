@@ -6,12 +6,11 @@ function check(){
 	var str = document.getElementById("answer").value;
 	if((str.includes("1000001")) && (nb < max)){
         alert("CORRECT!");
-        window.location.href="file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/home_page.html";
+        window.location.href="file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page4.html";
         document.getElementById("checkbutton").style.display = "none";
         document.getElementById("answer").style.display = "none";
         document.getElementById("help").style.display = "none";
      	document.getElementById("idea").style.display = "none";
-        document.body.style.backgroundImage = "url('images/pyramid_close2.jpg')";
     } else{
     	var result = max - nb - 1;
         alert("WRONG! " + " Remaining tries: " + result);
@@ -60,6 +59,7 @@ function bip() {
         document.getElementById("bip").innerHTML = counter + " seconds";
     }	
 }
+//start timer
 function start(){
   intervalId = setInterval(bip, 1000);
 }
