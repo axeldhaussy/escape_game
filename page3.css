@@ -13,6 +13,14 @@ p {
 	font-size: 25px;
 	font-family: bold;
 }
+.triesR {
+	position: relative;
+	top: 15vh; left: 5vh;	
+	color: darkred;
+	display: block;
+	font-size: 25px;
+	font-family: bold;
+}
 
 .divIdea {
 	display: none;
