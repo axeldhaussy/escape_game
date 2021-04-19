@@ -21,3 +21,11 @@ function look(){
 	document.getElementById("upstairs").style.display = "inline-block";
 	document.getElementById("downstairs").style.display = "inline-block";
 }
+
+function confirmer(){
+    var res = confirm("Are you sure you want to exit?");
+    if(res)
+        return true;
+    else
+    	return false;
+}

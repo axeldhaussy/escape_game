@@ -102,7 +102,7 @@ function check4(){
     var str = document.getElementById("answer").value;
     if((str == "louxor") && (nb < max)){
         alert("CORRECT!");
-        window.location.href="file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page6b.html";
+        window.location.href="file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page8.html";
         document.getElementById("checkbutton").style.display = "none";
         document.getElementById("answer").style.display = "none";
     } else{
