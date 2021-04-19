@@ -98,6 +98,36 @@ function check3(){
     }
     document.getElementById("triesLeft").innerHTML = result;
 }
+function check4(){
+    var str = document.getElementById("answer").value;
+    if((str == "louxor") && (nb < max)){
+        alert("CORRECT!");
+        window.location.href="file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page6b.html";
+        document.getElementById("checkbutton").style.display = "none";
+        document.getElementById("answer").style.display = "none";
+    } else{
+        var result = max - nb - 1;
+        alert("WRONG! " + " Remaining tries: " + result);
+        nb ++;
+    }
+    if(nb == 3){
+        alert("Sorry it was your last chance... The pyramid got you. You will now go to jail for 15 seconds before trying again");
+        document.body.style.backgroundImage = "url('images/jail.png')";
+        document.body.style.backgroundPosition = "300px -150px";
+        document.body.style.backgroundColor = "grey";
+        document.getElementById("triesLeft").style.display = "none";
+        document.getElementById("triesR").style.display = "none";
+        document.getElementById("div1").style.display = "none";
+        document.getElementById("exit").style.display = "none";
+        document.getElementById("checkbutton").style.display = "none";
+        document.getElementById("answer").style.display = "none";
+        document.getElementById("bip").style.display = "block";
+        document.getElementById("bip1").style.display = "block";
+
+        start4();
+    }
+    document.getElementById("triesLeft").innerHTML = result;
+}
 
 //timer
 var counter = 15;
@@ -140,6 +170,16 @@ function bip3(){
         document.getElementById("bip").innerHTML = counter + " seconds";
     }   
 }
+function bip4(){
+    counter--;
+    if(counter == 0){
+        finish();
+        window.location.href="file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page7.html";
+    } 
+    else {  
+        document.getElementById("bip").innerHTML = counter + " seconds";
+    }   
+}
 //start timer
 function start(){
   intervalId = setInterval(bip, 1000);
@@ -149,6 +189,9 @@ function start2(){
 }
 function start3(){
   intervalId2 = setInterval(bip3, 1000);
+}
+function start4(){
+  intervalId2 = setInterval(bip4, 1000);
 }
 
 //help button
