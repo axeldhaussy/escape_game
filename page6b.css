@@ -1,19 +1,47 @@
 body {
 	background-color: orange;
-	background-image:url(images/page6.jpg);
+	background-image:url(images/game4.jpg);
 	background-repeat: no-repeat;
-    background-size: 159vh;
-    background-position: 120% 55%;
+    background-size: 151vh;
+    background-position: 100% 40%;
 }
-.stairs{
+.triesR {
+	position: relative;
+	top: 15vh; left: 5vh;	
+	color: darkred;
+	display: block;
+	font-size: 25px;
+	font-family: bold;
+}
+.divIdea {
 	display: none;
+	position: absolute;
+	top: -1vh; left: 65vh;
 }
-
+.question {
+	cursor: pointer;
+	position: absolute;
+	top: 75vh; 
+	left: 150vh;
+	font-size: 30px;
+	background-image:url(images/question.jpg);
+	border: none;
+	background-color: orange;
+	border-radius: 25px;
+}
+.bip1, .bip {
+	position: relative;
+	top: 8vh; left: 7vh;	
+	color: darkred;
+	display: none;
+	font-size: 25px;
+	font-family: bold;
+}
 .div1 {
 	font-size: 18px;
 	padding: 20px;
 	width: 35vh;
-  	height: 35vh;
+  	height: 10vh;
 	overflow: scroll;
 	box-shadow: 10px 10px;
 	transition: width 2s, transform 2s;
@@ -21,30 +49,16 @@ body {
 .div1:hover {
 	transform: scale(1.1);
 }
-.buttonLook2 {
-	background-color: black;
-	text-decoration: none;
-	border: none;
+
+.answer, .checkButton {
+	position: relative;
+	top: 39vh; left: 105vh;	
 	border-radius: 10px;
-	color: white;
-	padding: 15px 12px;
-	text-align: center;
-	font-size: 12px;
-	cursor: pointer;
-}
-.buttonLook {
-	display: none;
 	background-color: black;
-	text-decoration: none;
-	border: none;
-	border-radius: 10px;
 	color: white;
-	padding: 15px 12px;
-	text-align: center;
-	font-size: 12px;
-	cursor: pointer;
 }
-.buttonLook:hover {
+.checkButton:hover {
+	cursor: pointer;
 	background-color: rgba(100, 100, 100, 1);
 }
 
@@ -52,7 +66,7 @@ body {
 	background-color: black;
 	float: left;
 	text-decoration: none;
-	margin-top: 50vh;
+	margin-top: 35vh;
 	margin-left: 15vh;
 	border: none;
 	border-radius: 10px;
@@ -65,7 +79,7 @@ body {
 .buttonExit:hover {
     background-color: rgba(255, 0, 0, 1);
 }
-.buttonExit:active, .buttonLook:active {
+.buttonExit:active {
     box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
                 inset 2px 2px 3px rgba(0, 0, 0, .6);
 }

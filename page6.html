@@ -7,12 +7,19 @@
 	</head>
 	<body>
 		<div class="div1">
-			<p>Nice job! You really good. But this is not the end! </p>
-			<button class="buttonLook2" onclick="look()">Continue</button>
+			<p id="text1">Nice job! You really good. But this is not the end! </p>
+			<button id="buttonLook2" class="buttonLook2" onclick="look()">Continue</button>
 			<p id="stairs" class="stairs">Look ahead, there are two stairs. Which one do you take?</p>
 
 			<button id="upstairs" class="buttonLook" onclick="upstairs()">Upstairs</button>
 			<button id="downstairs" class="buttonLook" onclick="downstairs()">Downstairs</button>
+		</div>
+		<br><br>
+		<div id="div2" class="div2">
+			<p>What do you want to do?</p>
+			<button id="buttonLook2" class="buttonLook2" onclick="closer()">Get closer</button>
+			<button id="inside" class="buttonLook2" onclick="lookInside()">Look inside</button>
+			<button id="back" class="buttonLook2" onclick="back()">Return</button>
 		</div>
 
 		<div>

@@ -2,21 +2,34 @@
 <html>
 	<head>
 		<link rel="stylesheet" href="page6b.css" type="text/css"/> 
-		<script src="page4.js"></script> 
+		<script src="page3.js"></script> 
 		<title align= >Game</title>
 	</head>
 	<body>
-		<div class="div1">
-			<p>Nice job! You really good. But this is not the end! </p>
-			<button class="buttonLook2" onclick="look()">Continue</button>
-			<p id="stairs" class="stairs">Look ahead, there are two stairs. Which one do you take?</p>
-
-			<button id="upstairs" class="buttonLook" onclick="upstairs()">Upstairs</button>
-			<button id="downstairs" class="buttonLook" onclick="downstairs()">Downstairs</button>
+		<div class="div1" id="div1">
+			<p>What? A test again? Crap...</p>
+		</div>
+		<div class="divIdea" id="idea2">
+			<img src="images/bulle2.png">
+		</div>
+		<button id="help" class="question" onclick="help2()">
+			?
+		</button>
+		<br>
+		<div >
+			<p id="triesR" class="triesR">Tries remaining: </p>
+			<p id="triesLeft" class="triesR">3</p>
 		</div>
 
+		<p id="bip1" class="bip1"> Time remaining:</p>
+		<br>
+		<p id="bip" class="bip"></p>
+		<br><br><br>
+		<input type="text" class="answer" id="answer" required minlength="1" maxlength="7" placeholder=" Answer">
+		<button id="checkbutton" class="checkButton" onclick="check5()">Check</button>
+
 		<div>
-			<a id="exit" class="buttonExit" href="file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/home_page.html" onClick="return confirmer()"> Exit</a>
+			<a id="exit" class="buttonExit" href="file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/home_page.html" onclick= "return confirmer()"> Exit</a>
 		</div>
 
 	</body>
