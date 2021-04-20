@@ -100,7 +100,7 @@ function check3(){
 }
 function check4(){
     var str = document.getElementById("answer").value;
-    if((str == "louxor") && (nb < max)){
+    if((str == "LOUXOR") && (nb < max)){
         alert("CORRECT!");
         window.location.href="file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page8.html";
         document.getElementById("checkbutton").style.display = "none";
@@ -130,7 +130,7 @@ function check4(){
 }
 function check5(){
     var str = document.getElementById("answer").value;
-    if((str == "kheops") && (nb < max)){
+    if((str == "KHEOPS") && (nb < max)){
         alert("CORRECT!");
         window.location.href="file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page7b.html";
         document.getElementById("checkbutton").style.display = "none";
