@@ -18,9 +18,11 @@ function check(){
     }
     if(nb == 3){
     	alert("Sorry it was your last chance... The pyramid got you. You will now go to jail for 15 seconds before trying again");
-    	document.body.style.backgroundImage = "url('images/jail.png')";
-    	document.body.style.backgroundPosition = "300px -150px";
+    	document.body.style.backgroundImage = "url('images/doorOpen.mp4')";
+    	document.body.style.backgroundPosition = "260px 30px";
+    	document.body.style.backgroundSize = "160vh";
     	document.body.style.backgroundColor = "grey";
+    	document.getElementById("musicJail").play();
      	document.getElementById("exit").style.display = "none";
     	document.getElementById("checkbutton").style.display = "none";
 		document.getElementById("answer").style.display = "none";
@@ -51,9 +53,11 @@ function check2(){
     }
     if(nb == 3){
     	alert("Sorry it was your last chance... The pyramid got you. You will now go to jail for 15 seconds before trying again");
-    	document.body.style.backgroundImage = "url('images/jail.png')";
-    	document.body.style.backgroundPosition = "300px -150px";
+    	document.body.style.backgroundImage = "url('images/doorOpen.mp4')";
+    	document.body.style.backgroundPosition = "260px 30px";
+    	document.body.style.backgroundSize = "160vh";
     	document.body.style.backgroundColor = "grey";
+    	document.getElementById("musicJail").play();
     	document.getElementById("triesLeft").style.display = "none";
     	document.getElementById("triesR").style.display = "none";
     	document.getElementById("div1").style.display = "none";
@@ -82,9 +86,11 @@ function check3(){
     }
     if(nb == 3){
         alert("Sorry it was your last chance... The pyramid got you. You will now go to jail for 15 seconds before trying again");
-        document.body.style.backgroundImage = "url('images/jail.png')";
-        document.body.style.backgroundPosition = "300px -150px";
-        document.body.style.backgroundColor = "grey";
+        document.body.style.backgroundImage = "url('images/doorOpen.mp4')";
+    	document.body.style.backgroundPosition = "260px 30px";
+    	document.body.style.backgroundSize = "160vh";
+    	document.body.style.backgroundColor = "grey";
+    	document.getElementById("musicJail").play();
         document.getElementById("triesLeft").style.display = "none";
         document.getElementById("triesR").style.display = "none";
         document.getElementById("div1").style.display = "none";
@@ -112,9 +118,11 @@ function check4(){
     }
     if(nb == 3){
         alert("Sorry it was your last chance... The pyramid got you. You will now go to jail for 15 seconds before trying again");
-        document.body.style.backgroundImage = "url('images/jail.png')";
-        document.body.style.backgroundPosition = "300px -150px";
-        document.body.style.backgroundColor = "grey";
+        document.body.style.backgroundImage = "url('images/doorOpen.mp4')";
+    	document.body.style.backgroundPosition = "260px 30px";
+    	document.body.style.backgroundSize = "160vh";
+    	document.body.style.backgroundColor = "grey";
+    	document.getElementById("musicJail").play();
         document.getElementById("triesLeft").style.display = "none";
         document.getElementById("triesR").style.display = "none";
         document.getElementById("div1").style.display = "none";
@@ -142,9 +150,12 @@ function check5(){
     }
     if(nb == 3){
         alert("Sorry it was your last chance... The pyramid got you. You will now go to jail for 15 seconds before trying again");
-        document.body.style.backgroundImage = "url('images/jail.png')";
-        document.body.style.backgroundPosition = "300px -150px";
-        document.body.style.backgroundColor = "grey";
+        document.body.style.backgroundImage = "url('images/doorOpen.mp4')";
+    	document.body.style.backgroundPosition = "260px 30px";
+    	document.body.style.backgroundSize = "160vh";
+    	document.body.style.backgroundColor = "grey";
+    	document.getElementById("musicJail").play();
+		document.getElementById("idea2").style.display = "none";
         document.getElementById("help").style.display = "none";
         document.getElementById("triesLeft").style.display = "none";
         document.getElementById("triesR").style.display = "none";
@@ -173,9 +184,11 @@ function check6(){
     }
     if(nb == 3){
         alert("Sorry it was your last chance... The pyramid got you. You will now go to jail for 15 seconds before trying again");
-        document.body.style.backgroundImage = "url('images/jail.png')";
-        document.body.style.backgroundPosition = "300px -150px";
-        document.body.style.backgroundColor = "grey";
+        document.body.style.backgroundImage = "url('images/doorOpen.mp4')";
+    	document.body.style.backgroundPosition = "260px 30px";
+    	document.body.style.backgroundSize = "160vh";
+    	document.body.style.backgroundColor = "grey";
+    	document.getElementById("musicJail").play();
         document.getElementById("triesLeft").style.display = "none";
         document.getElementById("triesR").style.display = "none";
         document.getElementById("div1").style.display = "none";
@@ -284,9 +297,11 @@ function start6(){
 //help button
 function help(){
 	document.getElementById("idea").style.display = "block";
+	document.getElementById("musicIdea").play();
 }
 function help2(){
 	document.getElementById("idea2").style.display = "block";
+	document.getElementById("musicIdea").play();
 }
 
 //exit button

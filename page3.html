@@ -9,6 +9,10 @@
 		<div class="divIdea" id="idea">
 			<img src="images/bulle.png">
 		</div>
+		<audio id="musicIdea" src="sounds/idea.wav">
+            Your browser does not support the
+            <code>audio</code> element.
+    	</audio>
 		<button id="help" class="question" onclick="help()">
 			?
 		</button>
@@ -16,10 +20,16 @@
 			<p id="triesR" class="triesR">Tries remaining: </p>
 			<p id="triesLeft" class="triesR">3</p>
 		</div>
-		<p id="bip1"> Time remaining:</p>
-		<br>
-		<p id="bip"></p>
+		<div class="bip">
+			<p id="bip1"> Time remaining:</p>
+			<br>
+			<p id="bip"></p>
+		</div>
 		<br><br><br>
+		<audio id="musicJail" src="sounds/doorClose.mov">
+            Your browser does not support the
+            <code>audio</code> element.
+    	</audio>
 		<input type="text" class="answer" id="answer" required minlength="6" maxlength="8" placeholder=" Answer"  onkeypress="if(event.keyCode == 13)check()">
 		<button id="checkbutton" class="checkButton" onclick="check()">Check</button>
 

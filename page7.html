@@ -14,11 +14,14 @@
 			<p id="triesR" class="triesR">Tries remaining: </p>
 			<p id="triesLeft" class="triesR">3</p>
 		</div>
-
 		<p id="bip1" class="bip1"> Time remaining:</p>
 		<br>
 		<p id="bip" class="bip"></p>
 		<br><br><br>
+		<audio id="musicJail" src="sounds/doorClose.mov">
+            Your browser does not support the
+            <code>audio</code> element.
+    	</audio>
 		<input style="text-transform: uppercase" type="text" onkeyup="this.value=this.value.toUpperCase()" class="answer" id="answer" required minlength="1" maxlength="7" placeholder=" Answer"  onkeypress="if(event.keyCode == 13)check4()">
 		<button id="checkbutton" class="checkButton" onclick="check4()">Check</button>
 

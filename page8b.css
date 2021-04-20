@@ -15,7 +15,7 @@ body {
 }
 .bip1, .bip {
 	position: relative;
-	top: 8vh; left: 7vh;	
+	top: 15vh; left: 1vh;	
 	color: darkred;
 	display: none;
 	font-size: 25px;
