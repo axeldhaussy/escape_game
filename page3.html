@@ -20,7 +20,7 @@
 		<br>
 		<p id="bip"></p>
 		<br><br><br>
-		<input type="text" class="answer" id="answer" required minlength="6" maxlength="8" placeholder=" Answer">
+		<input type="text" class="answer" id="answer" required minlength="6" maxlength="8" placeholder=" Answer"  onkeypress="if(event.keyCode == 13)check()">
 		<button id="checkbutton" class="checkButton" onclick="check()">Check</button>
 
 		<div>

@@ -1,0 +1,30 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+		<link rel="stylesheet" href="page7b.css" type="text/css"/> 
+		<script src="page4.js"></script> 
+		<title align= >Game</title>
+	</head>
+	<body>
+		<div class="div1">
+			<p id="text1">Nice job! You really good. But this is not the end! You have one more test to get out, you can do it!</p>
+			<button id="buttonLook2" class="buttonLook2" onclick="look2()">Continue</button>
+			<p id="stairs" class="stairs">Look ahead, there are two passages. Which one do you take?</p>
+
+			<button id="upstairs" class="buttonLook" onclick="left()">Left one</button>
+			<button id="downstairs" class="buttonLook" onclick="right()">Right one</button>
+		</div>
+		<br><br>
+		<div id="div2" class="div2">
+			<p>What do you want to do?</p>
+			<button id="buttonLook2" class="buttonLook2" onclick="goLeft()">Go left</button>
+			<button id="inside" class="buttonLook2" onclick="goBehind()">Go Behind</button>
+			<button id="back" class="buttonLook2" onclick="goBack()">Go back</button>
+		</div>
+
+		<div>
+			<a id="exit" class="buttonExit" href="file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/home_page.html" onClick="return confirmer()"> Exit</a>
+		</div>
+
+	</body>
+</html>
