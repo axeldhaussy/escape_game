@@ -82,7 +82,7 @@ function goBehind(){
     document.body.style.backgroundSize = "150vh";
     document.body.style.backgroundPosition = "333px -50px";
     document.getElementById("stairs").style.display = "block";
-    document.getElementById("stairs").innerHTML = "Oh shit! That scared me. It's look like excepet this guy on the floor there is nothing, and I don't see any doors. Maybe you should try to go back...";
+    document.getElementById("stairs").innerHTML = "Oh shit! That scared me. It's look like excepted this guy on the floor there is nothing, and I don't see any doors. Maybe you should try to go back...";
 }
 
 function goBack(){
