@@ -1,10 +1,37 @@
+//create a cookie that long 1 day after its creation
+document.cookie = 'user=John; path=/; max-age=86400';
+
+function setCookie(cname,cvalue,exdays) {
+  var d = new Date();
+  d.setTime(d.getTime() + (exdays*24*60*60*1000));
+  var expires = "expires=" + d.toGMTString();
+  document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+}
+
+function getCookie(cname) {
+  var name = cname + "=";
+  var decodedCookie = decodeURIComponent(document.cookie);
+  var ca = decodedCookie.split(';');
+  for(var i = 0; i < ca.length; i++) {
+    var c = ca[i];
+    while (c.charAt(0) == ' ') {
+      c = c.substring(1);
+    }
+    if (c.indexOf(name) == 0) {
+      return c.substring(name.length, c.length);
+    }
+  }
+  return "";
+}
+
+
 //check user input
 var nb = 0;
 var max = 3;
 
 function check(){
 	var str = document.getElementById("answer").value;
-	if((str == 1000001) && (nb < max)){
+	if((str == 1001001) && (nb < max)){
         alert("CORRECT!");
         window.location.href="file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page4.html";
         document.getElementById("checkbutton").style.display = "none";
@@ -39,7 +66,7 @@ function check(){
 }
 function check2(){
 	var str = document.getElementById("answer").value;
-	if((str == 13) && (nb < max)){
+	if((str == 27) && (nb < max)){
         alert("CORRECT!");
         window.location.href="file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page6.html";
         document.getElementById("checkbutton").style.display = "none";
@@ -74,7 +101,7 @@ function check2(){
 
 function check3(){
     var str = document.getElementById("answer").value;
-    if((str == 27) && (nb < max)){
+    if((str == 40) && (nb < max)){
         alert("CORRECT!");
         window.location.href="file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page6b.html";
         document.getElementById("checkbutton").style.display = "none";
@@ -305,10 +332,40 @@ function help2(){
 }
 
 //exit button
-function confirmer(){
+function confirmer(){    
+    //save part
+    var save = 0;
+    if(window.location.href == "file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page1.html")
+        save = 1;
+    if(window.location.href == "file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page2.html")
+        save = 2;
+    if(window.location.href == "file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page3.html")
+        save = 3;
+    if(window.location.href == "file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page4.html")
+        save = 4;
+    if(window.location.href == "file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page5.html")
+        save = 5;
+    if(window.location.href == "file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page5b.html")
+        save = 6;
+    if(window.location.href == "file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page6.html")
+        save = 7;
+    if(window.location.href == "file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page6b.html")
+        save = 8;
+    if(window.location.href == "file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page7.html")
+        save = 9;
+    if(window.location.href == "file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page7b.html")
+        save = 10;
+    if(window.location.href == "file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page8.html")
+        save = 11;
+    if(window.location.href == "file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page8b.html")
+        save = 12;
+
+
     var res = confirm("Are you sure you want to exit?");
-    if(res)
+    if(res){
+        setCookie("save", save, 365);
         return true;
+    }
     else
     	return false;
 }

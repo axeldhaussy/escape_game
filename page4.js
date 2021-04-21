@@ -90,10 +90,49 @@ function goBack(){
     window.location.href="file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page7b.html";
 }
 
-function confirmer(){
+//set cookie
+function setCookie(cname,cvalue,exdays) {
+  var d = new Date();
+  d.setTime(d.getTime() + (exdays*24*60*60*1000));
+  var expires = "expires=" + d.toGMTString();
+  document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+}
+
+//exit button
+function confirmer(){    
+    //save part
+    var save = 0;
+    if(window.location.href == "file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page1.html")
+        save = 1;
+    if(window.location.href == "file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page2.html")
+        save = 2;
+    if(window.location.href == "file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page3.html")
+        save = 3;
+    if(window.location.href == "file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page4.html")
+        save = 4;
+    if(window.location.href == "file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page5.html")
+        save = 5;
+    if(window.location.href == "file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page5b.html")
+        save = 6;
+    if(window.location.href == "file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page6.html")
+        save = 7;
+    if(window.location.href == "file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page6b.html")
+        save = 8;
+    if(window.location.href == "file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page7.html")
+        save = 9;
+    if(window.location.href == "file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page7b.html")
+        save = 10;
+    if(window.location.href == "file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page8.html")
+        save = 11;
+    if(window.location.href == "file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page8b.html")
+        save = 12;
+
+
     var res = confirm("Are you sure you want to exit?");
-    if(res)
+    if(res){
+        setCookie("save", save, 365);
         return true;
+    }
     else
-    	return false;
+        return false;
 }
