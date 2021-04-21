@@ -13,6 +13,23 @@ body {
 	font-size: 25px;
 	font-family: bold;
 }
+.divIdea {
+	display: none;
+	position: absolute;
+	top: -1vh; left: 65vh;
+}
+
+.question {
+	cursor: pointer;
+	position: absolute;
+	top: 75vh; 
+	left: 150vh;
+	font-size: 30px;
+	background-image:url(images/question.jpg);
+	border: none;
+	background-color: orange;
+	border-radius: 25px;
+}
 .bip1, .bip {
 	position: relative;
 	top: 15vh; left: 1vh;	
