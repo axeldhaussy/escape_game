@@ -224,6 +224,8 @@ function check6(){
         document.getElementById("answer").style.display = "none";
         document.getElementById("bip").style.display = "block";
         document.getElementById("bip1").style.display = "block";
+        document.getElementById("help").style.display = "none";
+        document.getElementById("idea").style.display = "none";
 
         start6();
     }
