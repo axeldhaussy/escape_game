@@ -34,7 +34,7 @@ function lookInside(){
     document.body.style.backgroundSize = "80vh";
     document.body.style.backgroundPosition = "550px 0px";
     document.getElementById("stairs").style.display = "block";
-    document.getElementById("stairs").innerHTML = "Well, it's look like there is nothing in it. You should continue, but I don't see any doors. Maybe you should try to go upstairs...";
+    document.getElementById("stairs").innerHTML = "Well, it's looks like there is nothing in it. You should continue, but I don't see any doors. Maybe you should try to go upstairs...";
 }
 
 function back(){
