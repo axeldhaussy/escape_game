@@ -2,11 +2,11 @@
 function confirmer(){    
     //save part
     var save = 0;
-    if(window.location.href == "file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page1.html")
+    if(window.location.href == "page1.html")
         save = 1;
-    if(window.location.href == "file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page2.html")
+    if(window.location.href == "page2.html")
         save = 2;
-    if(window.location.href == "file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page3.html")
+    if(window.location.href == "page3.html")
         save = 3;
     if(window.location.href == "file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page4.html")
         save = 4;
