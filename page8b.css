@@ -18,7 +18,11 @@ body {
 	position: absolute;
 	top: -1vh; left: 65vh;
 }
-
+.divCuff {
+	display: none;
+	position: relative;
+	top: 35vh; left: 2vh;
+}
 .question {
 	cursor: pointer;
 	position: absolute;

@@ -50,6 +50,7 @@ function check(){
     	document.body.style.backgroundSize = "160vh";
     	document.body.style.backgroundColor = "grey";
     	document.getElementById("musicJail").play();
+        document.getElementById("cuff").style.display = "block";
      	document.getElementById("exit").style.display = "none";
     	document.getElementById("checkbutton").style.display = "none";
 		document.getElementById("answer").style.display = "none";
@@ -85,6 +86,7 @@ function check2(){
     	document.body.style.backgroundSize = "160vh";
     	document.body.style.backgroundColor = "grey";
     	document.getElementById("musicJail").play();
+        document.getElementById("cuff").style.display = "block";
     	document.getElementById("triesLeft").style.display = "none";
     	document.getElementById("triesR").style.display = "none";
     	document.getElementById("div1").style.display = "none";
@@ -118,6 +120,7 @@ function check3(){
     	document.body.style.backgroundSize = "160vh";
     	document.body.style.backgroundColor = "grey";
     	document.getElementById("musicJail").play();
+        document.getElementById("cuff").style.display = "block";
         document.getElementById("triesLeft").style.display = "none";
         document.getElementById("triesR").style.display = "none";
         document.getElementById("div1").style.display = "none";
@@ -150,6 +153,7 @@ function check4(){
     	document.body.style.backgroundSize = "160vh";
     	document.body.style.backgroundColor = "grey";
     	document.getElementById("musicJail").play();
+        document.getElementById("cuff").style.display = "block";
         document.getElementById("triesLeft").style.display = "none";
         document.getElementById("triesR").style.display = "none";
         document.getElementById("div1").style.display = "none";
@@ -182,6 +186,7 @@ function check5(){
     	document.body.style.backgroundSize = "160vh";
     	document.body.style.backgroundColor = "grey";
     	document.getElementById("musicJail").play();
+        document.getElementById("cuff").style.display = "block";
 		document.getElementById("idea2").style.display = "none";
         document.getElementById("help").style.display = "none";
         document.getElementById("triesLeft").style.display = "none";
@@ -216,6 +221,7 @@ function check6(){
     	document.body.style.backgroundSize = "160vh";
     	document.body.style.backgroundColor = "grey";
     	document.getElementById("musicJail").play();
+        document.getElementById("cuff").style.display = "block";
         document.getElementById("triesLeft").style.display = "none";
         document.getElementById("triesR").style.display = "none";
         document.getElementById("div1").style.display = "none";

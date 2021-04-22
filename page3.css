@@ -27,6 +27,12 @@ p {
 	top: 15vh; left: -6vh;
 }
 
+.divCuff {
+	display: none;
+	position: relative;
+	top: 35vh; left: 2vh;
+}
+
 .divIdea {
 	display: none;
 	position: absolute;

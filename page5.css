@@ -21,6 +21,12 @@ body {
 	font-size: 25px;
 	font-family: bold;
 }
+
+.divCuff {
+	display: none;
+	position: relative;
+	top: 35vh; left: 2vh;
+}
 .div1 {
 	font-size: 18px;
 	padding: 20px;
