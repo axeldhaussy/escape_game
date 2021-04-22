@@ -33,7 +33,7 @@ function check(){
 	var str = document.getElementById("answer").value;
 	if((str == 1001001) && (nb < max)){
         alert("CORRECT!");
-        window.location.href="file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page4.html";
+        window.location.href="page4.html";
         document.getElementById("checkbutton").style.display = "none";
         document.getElementById("answer").style.display = "none";
         document.getElementById("help").style.display = "none";
@@ -68,7 +68,7 @@ function check2(){
 	var str = document.getElementById("answer").value;
 	if((str == 27) && (nb < max)){
         alert("CORRECT!");
-        window.location.href="file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page6.html";
+        window.location.href="page6.html";
         document.getElementById("checkbutton").style.display = "none";
         document.getElementById("answer").style.display = "none";
         document.getElementById("help").style.display = "none";
@@ -103,7 +103,7 @@ function check3(){
     var str = document.getElementById("answer").value;
     if((str == 40) && (nb < max)){
         alert("CORRECT!");
-        window.location.href="file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page6b.html";
+        window.location.href="page6b.html";
         document.getElementById("checkbutton").style.display = "none";
         document.getElementById("answer").style.display = "none";
     } else{
@@ -135,7 +135,7 @@ function check4(){
     var str = document.getElementById("answer").value;
     if((str == "LOUXOR") && (nb < max)){
         alert("CORRECT!");
-        window.location.href="file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page8.html";
+        window.location.href="page8.html";
         document.getElementById("checkbutton").style.display = "none";
         document.getElementById("answer").style.display = "none";
     } else{
@@ -167,7 +167,7 @@ function check5(){
     var str = document.getElementById("answer").value;
     if((str == "KHEOPS") && (nb < max)){
         alert("CORRECT!");
-        window.location.href="file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page7b.html";
+        window.location.href="page7b.html";
         document.getElementById("checkbutton").style.display = "none";
         document.getElementById("answer").style.display = "none";
     } else{
@@ -201,7 +201,7 @@ function check6(){
     var str = document.getElementById("answer").value;
     if((str == 79) && (nb < max)){
         alert("CORRECT!");
-        window.location.href="file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page8.html";
+        window.location.href="page8.html";
         document.getElementById("checkbutton").style.display = "none";
         document.getElementById("answer").style.display = "none";
     } else{
@@ -244,7 +244,7 @@ function bip(){
     counter--;
     if(counter == 0){
     	finish();
-    	window.location.href="file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page3.html";
+    	window.location.href="page3.html";
     } 
     else {	
         document.getElementById("bip").innerHTML = counter + " seconds";
@@ -254,7 +254,7 @@ function bip2(){
     counter--;
     if(counter == 0){
     	finish();
-    	window.location.href="file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page5.html";
+    	window.location.href="page5.html";
     } 
     else {	
         document.getElementById("bip").innerHTML = counter + " seconds";
@@ -264,7 +264,7 @@ function bip3(){
     counter--;
     if(counter == 0){
         finish();
-        window.location.href="file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page5b.html";
+        window.location.href="page5b.html";
     } 
     else {  
         document.getElementById("bip").innerHTML = counter + " seconds";
@@ -274,7 +274,7 @@ function bip4(){
     counter--;
     if(counter == 0){
         finish();
-        window.location.href="file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page7.html";
+        window.location.href="page7.html";
     } 
     else {  
         document.getElementById("bip").innerHTML = counter + " seconds";
@@ -284,7 +284,7 @@ function bip5(){
     counter--;
     if(counter == 0){
         finish();
-        window.location.href="file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page6b.html";
+        window.location.href="page6b.html";
     } 
     else {  
         document.getElementById("bip").innerHTML = counter + " seconds";
@@ -294,7 +294,7 @@ function bip6(){
     counter--;
     if(counter == 0){
         finish();
-        window.location.href="file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page8b.html";
+        window.location.href="page8b.html";
     } 
     else {  
         document.getElementById("bip").innerHTML = counter + " seconds";

@@ -1,13 +1,13 @@
 function leftDoor(){
-    window.location.href="file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page5.html";
+    window.location.href="page5.html";
 }
 
 function rightDoor(){
-    window.location.href="file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page5b.html";
+    window.location.href="page5b.html";
 }
 
 function upstairs(){
-    window.location.href="file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page7.html";
+    window.location.href="page7.html";
 }
 
 function downstairs(){
@@ -39,7 +39,7 @@ function lookInside(){
 
 function back(){
     document.getElementById("text1").style.display = "block";
-    window.location.href="file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page6.html";
+    window.location.href="page6.html";
 }
 
 function look(){
@@ -55,7 +55,7 @@ function look2(){
     document.getElementById("downstairs").style.display = "inline-block";
 }
 function left(){
-    window.location.href="file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page8b.html";
+    window.location.href="page8b.html";
 }
 
 function right(){
@@ -87,7 +87,7 @@ function goBehind(){
 
 function goBack(){
     document.getElementById("text1").style.display = "block";
-    window.location.href="file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page7b.html";
+    window.location.href="page7b.html";
 }
 
 //set cookie

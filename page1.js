@@ -84,31 +84,31 @@ function getCookie(cname) {
 
 function load(){
 	var val = getCookie("save");
-	console.log(val);
+  console.log(val);
 	if(val == 1)
-		window.location.href = "file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page1.html";
+		window.location.href = "page1.html";
 	if(val == 2)
-		window.location.href = "file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page2.html";
+		window.location.href = "page2.html";
 	if(val == 3)
-		window.location.href = "file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page3.html";
+		window.location.href = "page3.html";
 	if(val == 4)
-		window.location.href = "file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page4.html";
+		window.location.href = "page4.html";
 	if(val == 5)
-		window.location.href = "file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page5.html";
+		window.location.href = "page5.html";
 	if(val == 6)
-		window.location.href = "file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page5b.html";
+		window.location.href = "page5b.html";
 	if(val == 7)
-		window.location.href = "file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page6.html";
+		window.location.href = "page6.html";
 	if(val == 8)
-		window.location.href = "file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page6b.html";
+		window.location.href = "page6b.html";
 	if(val == 9)
-		window.location.href = "file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page7.html";
+		window.location.href = "page7.html";
 	if(val == 10)
-		window.location.href = "file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page7b.html";
+		window.location.href = "page7b.html";
 	if(val == 11)
-		window.location.href = "file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page8.html";
+		window.location.href = "page8.html";
 	if(val == 12)
-		window.location.href = "file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page8b.html";
+		window.location.href = "page8b.html";
 	else
 		val = 1;
 }
