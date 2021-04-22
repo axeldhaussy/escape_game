@@ -14,6 +14,8 @@ body {
 	box-shadow: 10px 10px;
 	transition: width 2s, transform 2s;
 	overflow: hidden;
+	overflow-x: scroll;
+	overflow-y: scroll;
 }
 .div2 {
 	font-size: 18px;
@@ -25,6 +27,8 @@ body {
 	transition: width 2s, transform 2s;
 	display: none;
 	overflow: hidden;
+	overflow-x: scroll;
+	overflow-y: scroll;
 }
 .div1:hover,  .div2:hover{
 	transform: scale(1.1);
