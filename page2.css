@@ -12,7 +12,7 @@ body {
   	height: 25vh;
 	box-shadow: 10px 10px;
 	transition: width 2s, transform 2s;
-	overflow: hidden;
+	overflow: auto;
 }
 .div2 {
 	font-size: 18px;
