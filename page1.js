@@ -46,7 +46,13 @@ function pictureChange2(){
 	document.getElementById("exit").style.marginTop = "24vh"
 }
 
+
+
 //music
+var music = 1;
+if (music == 1)
+  document.getElementById("music").play();
+  
 function stopMusic(){
 	var sound = document.getElementById("music");
 	if (sound.paused){
