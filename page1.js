@@ -8,23 +8,23 @@ function confirmer(){
         save = 2;
     if(window.location.href == "page3.html")
         save = 3;
-    if(window.location.href == "file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page4.html")
+    if(window.location.href == "page4.html")
         save = 4;
-    if(window.location.href == "file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page5.html")
+    if(window.location.href == "page5.html")
         save = 5;
-    if(window.location.href == "file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page5b.html")
+    if(window.location.href == "page5b.html")
         save = 6;
-    if(window.location.href == "file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page6.html")
+    if(window.location.href == "page6.html")
         save = 7;
-    if(window.location.href == "file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page6b.html")
+    if(window.location.href == "page6b.html")
         save = 8;
-    if(window.location.href == "file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page7.html")
+    if(window.location.href == "page7.html")
         save = 9;
-    if(window.location.href == "file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page7b.html")
+    if(window.location.href == "page7b.html")
         save = 10;
-    if(window.location.href == "file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page8.html")
+    if(window.location.href == "page8.html")
         save = 11;
-    if(window.location.href == "file:///Users/axel/Desktop/Web%20Technologies/Projet/escape_game/page8b.html")
+    if(window.location.href == "page8b.html")
         save = 12;
 
     var res = confirm("Are you sure you want to exit? Your game will be saved anyway.");
@@ -84,7 +84,6 @@ function getCookie(cname) {
 
 function load(){
 	var val = getCookie("save");
-  console.log(val);
 	if(val == 1)
 		window.location.href = "page1.html";
 	if(val == 2)
