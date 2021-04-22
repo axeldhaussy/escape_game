@@ -26,7 +26,7 @@ function closer(){
     document.body.style.backgroundImage = "url('images/noWay12.jpg')";
     document.body.style.backgroundSize = "150vh";
     document.body.style.backgroundPosition = "333px 0px";
-    document.getElementById("text1").innerHTML = "Wait! I can't belive it! It's the kehop sarcophagus! Pharaoh Kehops rested in this tomb.";
+    document.getElementById("text1").innerHTML = "Wait! I can't belive it! It is the Kehop's sarcophagus! Pharaoh Kehops rested in this tomb.";
 }
 
 function lookInside(){
