@@ -128,7 +128,7 @@ function confirmer(){
         save = 12;
 
 
-    var res = confirm("Are you sure you want to exit?");
+    var res = confirm("Are you sure you want to exit? Your game will be saved anyway.");
     if(res){
         setCookie("save", save, 365);
         return true;
