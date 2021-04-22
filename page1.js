@@ -47,9 +47,8 @@ function pictureChange2(){
 }
 
 //music
-var sound = document.getElementById("music");
-sound.play();
 function stopMusic(){
+	var sound = document.getElementById("music");
 	if (sound.paused){
 		sound.play();
 		document.getElementById("musicButton").src = "images/music.png";
